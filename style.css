@@ -1,0 +1,127 @@
+body{
+    font-family: Arial,sans-serif;
+    padding: 16px;
+}
+nav{
+    text-align: right;
+}
+.menu-item{
+    font-size: 13px;
+    padding: 5px;
+    color: rgba(0,0, 0, 0.87);
+    text-decoration: none;
+    position: relative;
+    top: -20px;
+    
+    
+}
+.material-icons{
+    padding: 5px;
+    position: relative;
+    top: -12px;
+}
+.menu-item:hover{
+    text-decoration: underline;
+}
+section{
+  
+    text-align: center;
+}
+.custom-button{
+    background-color: #f2f2f2;
+    color: #5F6368;
+    font-size: 14px;
+    height: 36px;
+    padding: 0 16px;
+    background-image: linear-gradient(top,#f5f5f5,#f1f1f1);
+    border: 1px solid transparent;
+    box-shadow: 0 1px 1px rgba(0,0, 0, 0);
+    color: #222;
+    outline: none;
+    border-radius: 5px;
+}
+.custom-button:hover{
+    background-image: linear-gradient(top,#f8f8f8,#f1f1f1);
+    border: 1px solid #c6c6c6;
+    box-shadow: 0 1px 1px rgba(0,0, 0, 0.1);
+    color: #222;
+}
+.custom-button:first-of-type{
+    margin-right: 16px;
+}
+.app-item{
+    display: inline-block;
+    
+    width: 84px;
+    margin-bottom: 18px;
+    padding: 8px 2px;
+    text-align: center;
+   
+}
+.app-item:hover{
+    border: 1px solid rgba(0,0, 0, 0.2);
+}
+.app-item>img{
+    width: 50px;
+    height: 50px;
+}
+.app-item>p{
+    color: rgba(0,0, 0, 0.87);
+    margin: 0;
+    padding-top: 8px;
+    
+}
+#dropdown-wrapper{
+    display: inline-block;
+}
+#dropdown-wrapper:hover #app-dropdown{
+    display: block; 
+    background: white;
+}
+#app-dropdown{
+    width: 285px;
+    padding: 28px;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 10px rgba(0,0, 0, 0.2);
+    position: absolute;
+    display: none;
+    right: 100px;
+    border-radius: 8px;
+
+}
+#input{
+    position: relative;
+    width: 582px;
+    display: inline-block;
+    margin-top: 24px;
+    
+}
+#input>img{
+    position: absolute;
+    top: 8px;
+    right: 0;
+    width: 28px;
+}
+#search-box{
+    width: 100%;
+    border: 1px solid #dfe1e5;
+    font-size: 13px;
+    padding: 14px;
+    color: black;
+    border-radius: 24px;
+    outline: none;
+    margin-bottom: 24px;
+}
+#search-box:hover{
+    box-shadow: 0 1px 6px rgba(33,33,36,0.28);
+    border-color: rgba(223,225,229,0);
+}
+#search-box:focus{
+    box-shadow: 0 1px 6px rgba(33,33,36,0.28);
+    border-color: rgba(223,225,229,0);
+}
+#ProfilePic{
+    border-radius: 25px;
+    width: 48px;
+    height: 48px;
+}
